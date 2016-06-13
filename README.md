@@ -55,7 +55,7 @@ Those subtags are used in order to provide the action that the commit does
 >* *boost* when improving performance
 >* *bug* when a bug is found (see *Rules* section)
 >* *fix* when fixing a bug (see *Rules* section)
->* *modify* when changes in files have been made
+>* *edit* when changes in files have been made
 >* *move* when files are moved between directories
 >* *remove* when files or directories are deleted
 >* *rename* when files or directories are renamed
