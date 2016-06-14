@@ -6,7 +6,7 @@ This is a proposal of tags to be used in commit messages. The goal is to identif
 
 ##Commit Message rules
 
-####Subject desription (first line)
+####Subject description (first line)
 >1. Prefix the line with an applicable emoji (tag)
 >2. Limit the subject line to 50 characters
 >3. Separate subject from body with a blank line
@@ -72,7 +72,7 @@ When fixing something on:
 
 Those subtags must be used just in combination with other tags to specify a particular change related to an O.S.
 >Example:
->  [api>macos] Subject description
+>  [api->macos] Subject description
 
 ####Rules
 1. The tag [new] is only used when you are doing a merge between a feature-branch and develop.
@@ -81,10 +81,8 @@ Those subtags must be used just in combination with other tags to specify a part
 
 3. Sometimes when you are doing modifications on your source code, it is likely to find a bug, in this case two actions can occur:
 
->+ [api>modify+bug] when the code was modified, a bug was found but NOT fixed
->+ [api>modify+fix] when the code was modified, a bug was found and WAS fixed
-
-
+>+ [api->modify+bug] when the code was modified, a bug was found but NOT fixed
+>+ [api->modify+fix] when the code was modified, a bug was found and WAS fixed
 
 ##REFERENCES
 
@@ -94,4 +92,4 @@ Those subtags must be used just in combination with other tags to specify a part
 4. [Karma](http://karma-runner.github.io/0.8/dev/git-commit-msg.html)
 
 -------------
-This document was last modified on : April 6th, 2016.
+This document was last modified on : June 13th, 2016.
