@@ -33,7 +33,6 @@ A complete description, rules and tips can be seen in [1].
 >* [test] when adding tests, refactoring tests; no production code change
 
 
-
 ####Tags and meaning for database
 
 >* [ak] alternate key
