@@ -32,7 +32,6 @@ A complete description, rules and tips can be seen in [1].
 >* [style] when writing documentation, formatting or comments on code; no code change
 >* [test] when adding tests, refactoring tests; no production code change
 
-
 ####Tags and meaning for database
 
 >* [ak] alternate key
@@ -60,7 +59,6 @@ Those subtags are used in order to provide the action that the commit does
 >* *rename* when files or directories are renamed
 >* *update* when a package's version is changed, module is added, removed or modified (see *Rules* section)
 
-
 When fixing something on:
 >* *and* (*Android*)
 >* *ios*
@@ -68,6 +66,8 @@ When fixing something on:
 >* *macos*
 >* *win*
 
+####Tags for github
+>* [merge] when merging two branches
 
 Those subtags must be used just in combination with other tags to specify a particular change related to an O.S.
 >Example:
